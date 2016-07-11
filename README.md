@@ -33,7 +33,9 @@ Make sure you clean the CSV file if you are starting fresh.
 
 # **Retraining an Inception_v3 Model** 
 
-To generate the tensorflow graphs in this Github, you need to retrain an Inception_v3 model trained on 1000 classes of ImageNet Large Visual Recognition Challenge from 2012. You can execute the command below
+To generate the tensorflow graphs in this Github, you need to retrain an Inception_v3 model trained on 1000 classes of ImageNet Large Visual Recognition Challenge from 2012. For more information on this approach, refer to the paper on http://arxiv.org/pdf/1310.1531v1.pdf. You may retrieve Tensorflow's publicly-available Inception v3 model at http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz. 
+
+To retrain, you can execute the command below
 
 ```
 $ python retrain.py \
